@@ -44,9 +44,12 @@ kotlin {
 
 android {
     namespace = "com.github.raininforest.gapcalculatorkmm"
-    compileSdk = 32
+    compileSdk = 33
     defaultConfig {
         minSdk = 24
-        targetSdk = 32
+        targetSdk = 33
     }
+}
+dependencies {
+    implementation("androidx.core:core-ktx:1.9.0")
 }
